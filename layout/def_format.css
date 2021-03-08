@@ -1,9 +1,16 @@
 body {
-  background-color: powderblue;
+ 	background-image: url("../assets/images/pineapple.jpg");
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+  	background-size: cover;
 }
+
 h1 {
-  color: blue;
+	font-family: "Impact";
+  	color: #000000;
+
 }
+
 p {
-  color: white;
+	color: white;
 }
