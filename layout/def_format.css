@@ -1,35 +1,65 @@
 body {
- 	background-image: url("../assets/images/pineapple.jpg");
-	background-color: #cccccc;
-	background-repeat: no-repeat;
-  	background-size: cover;
+	background-color: #303745;
+  	margin: 0;
 }
 
 h1 {
 	font-family: "OswaldBold";
-	font-size: 83px;
-  	color: gray;
-  	text-align: center;
+	font-size: 93px;
+  	color: white;
+  	/*line-height: 50px;*/
 }
 
 h2 {
 	font-family: MontserratLight;
-	font-size: 23px;
-  	color: black;
-  	text-align: center;
+	font-size: 35px;
+  	color: white;
+  	/*letter-spacing: 1px;*/
+  	/*line-height: 15px;*/
 }
 
 p {
-	color: black;
+	color: white;
 	font-family: CooperHewitt;
 	font-size: 15px;
 	line-height: 10px;
+	letter-spacing: 1px;
 }
 
-.headerDiv{
-	border: outset;
-	text-align: center;
-	background: rgba(150, 150, 150, 0.6);
+ul {
+  	list-style-type: none;
+  	margin: 0;
+ 	padding: 0;
+  	width: 20%;
+  	background-color: #484e60;
+  	position: fixed;
+  	height: 100%;
+}
+
+li a {
+  display: block;
+  color: #4e6487;
+  padding: 8px 16px;
+  text-align: left;
+  text-decoration: none;
+  font-family: BebasNeue;
+  font-size: 30px;
+}
+
+li a.active {
+  background-color: #303745;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.mainBodyDiv{
+	margin-left: 20%;
+	padding: 1px 16px;
+	height: 1000px;
 }
 
 @font-face{
