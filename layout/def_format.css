@@ -6,11 +6,48 @@ body {
 }
 
 h1 {
-	font-family: "Impact";
-  	color: #000000;
+	font-family: "OswaldBold";
+	font-size: 83px;
+  	color: gray;
+  	text-align: center;
+}
 
+h2 {
+	font-family: MontserratLight;
+	font-size: 23px;
+  	color: black;
+  	text-align: center;
 }
 
 p {
-	color: white;
+	color: black;
+	font-family: CooperHewitt;
+	font-size: 15px;
+	line-height: 10px;
+}
+
+.headerDiv{
+	border: outset;
+	text-align: center;
+	background: rgba(150, 150, 150, 0.6);
+}
+
+@font-face{
+	font-family: BebasNeue;
+	src: url("../assets/fonts/BebasNeue-Regular.otf");
+}
+
+@font-face{
+	font-family: OswaldBold;
+	src: url("../assets/fonts/Oswald-Bold.ttf");
+}
+
+@font-face{
+	font-family: MontserratLight;
+	src: url("../assets/fonts/Montserrat-Light.otf");
+}
+
+@font-face{
+	font-family: CooperHewitt;
+	src: url("../assets/fonts/CooperHewitt-Light.otf");
 }
